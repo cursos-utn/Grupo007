@@ -1,46 +1,57 @@
-*{margin: 0;
-padding: 0}
-
-.encabezado {display: flex;
-            border: solid black;
-            justify-content: space-around;
-            align-items: center;
-            }
-.titulo{text-align: center;
-        width: 70%; 
-        font-size: 60px;
-        color: blue;
-        border: green solid;}
-
-*{background: white}
-
-.encabezado img{width: 150px;
-                height: 150px;
-                justify-content: end;
-                 }
-
-.lista{display: flex;
-        justify-content: space-around;
-        font-size: 30px;}
-
-.links{list-style: none}
+body
+{margin: 0;
+padding: 0;
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 24 px;
+ background-color: #ccc;
+}
 
 
-.nave ul li a{text-decoration: none}   
+// DIVS
+.intro {
+ display:block;
+ padding:30px;
+ background-color: #000;
+}
 
-.main{display: flex;}
 
-.descripcion{border: olive solid 1px;
-             width: 20%;
-             min-height: 500px;
-             background-color: orangered;
-             }
-.contenedor{align-self: stretch;}             
-.texto{font-size: 20px;
-                background-color: blueviolet;
-                }             
+.nav {
+    position: fixed;
+    width: 100%;
+    margin: 0px auto;
+    font-style:bold;
+background-color:red;
+box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);}
 
-.section{justify-content: space-around}   
-.galeria{width: 80%}             
-.galeria img{width: 33%;
-                height: 33%;}
+.contenedor {align-self: stretch;}
+
+.section{justify-content: space-around}
+
+.galeria {
+ margin:0;
+align-self: stretch;
+padding:40px;}
+
+#kioto {background-color: #fff;}
+#tokio {background-color: #ccc;}
+#osaka {background-color: #000;}
+#kurama {background-color: #555;}
+
+#formulario {padding:40px;}
+
+.galeria img {
+ width:30%; padding: 10px; }
+
+// TEXTO
+.texto {
+color: white; padding:60px; line-height: 30px; }
+
+h3 {font-style:bold; font-size:30px; line-height:35px; padding-bottom: 40px;}
+
+.white {color:white;}
+
+.lista{
+ display: flex;
+ justify-content: space-around;margin:20px;
+      }
+a {color:white; text-decoration:none; }
