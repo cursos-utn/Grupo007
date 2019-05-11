@@ -44,13 +44,42 @@ font-size: 18px;
 
 #kioto {
   background-color: #fff;
-  height: 90vh;
+  min-height: 90vh;
 }
 
+#kioto1{
+  width: 30vw;
+}
+
+#kioto2{
+  width: 30vw;
+}
+
+#kioto3{
+  width: 30vw;
+}
+
+#foto1{
+  padding: 0;
+
+}
+
+#foto2{
+  padding: 0;
+
+}
+
+
+#foto3{
+  padding: 0;
+
+}
+/*HAY UN TOKIO? PORQUE NO LO VEO EN EL NAV
 #tokio {
   background-color: #ccc;
   height: 90vh;
 }
+*/
 
 #osaka {
   background-color: #000;
@@ -69,7 +98,7 @@ font-size: 18px;
    margin: auto;
    overflow: hidden;
 
-   animation: cambio 5s infinite alternate linear;
+   /*animation: cambio 5s infinite alternate linear;*/
 }
 
  .slider ul{
@@ -136,7 +165,9 @@ font-size: 18px;
 #formulario {padding:40px;}
 
 .galeria img {
- width:30%; padding: 10px; }
+ width:30%;
+ padding: 10px;
+ }
 
 /*TEXTO*/
 .texto {
