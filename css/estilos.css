@@ -12,6 +12,7 @@ font-size: 18px;
  display:block;
  padding:30px;
  background-color: #000;
+ height: 90vh;
 }
 
 
@@ -20,37 +21,35 @@ font-size: 18px;
     width: 100%;
     margin: 0px auto;
     font-style:bold;
-background-color:red;
-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);}
+    background-color:red;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);}
 
 
 
 
 
-
-.contenedor {align-self: stretch;}
+.contenedor {
+  align-self: stretch;
+}
 
 .section{
   justify-content: space-around
 }
 
 .galeria {
- margin:0;
- align-self: stretch;
- padding:40px;
-}
+   margin:0;
+   align-self: stretch;
+   padding:40px;
+ }
 
 #kioto {
   background-color: #fff;
-  min-height: 10vh;
-  margin:0;
-  align-self: stretch;
-  padding:40px;
+  height: 90vh;
 }
 
 #tokio {
   background-color: #ccc;
-  min-height: 90vh;
+  height: 90vh;
 }
 
 #osaka {
@@ -64,58 +63,80 @@ box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);}
 }
 
 
-#formulario {
-  padding:40px;
-}
-
 /*SLIDER*/
 .slider{
-  width: 100%;
-  margin: auto;
-  overflow: hidden;
+   width: 100%;
+   margin: auto;
+   overflow: hidden;
 
-  animation: cambio 5s infinite alternate linear;
+   animation: cambio 5s infinite alternate linear;
 }
 
-.slider ul{
+ .slider ul{
   display: flex;
   padding: 0;
   width: 95%;
 
-/*  animation-name:cambio;
-  animation-duration: 10s;
-  animation-iteration-count: infinite  linear;*/
+ }
 
-}
-
-.slider li{
+ .slider li{
   width: 100vw;
-
-
 }
 
 .slider img{
   width: 100vw;
 }
 
-@keyframes cambio {
+ @keyframes cambio {
 	0% {margin-left: 0;}
 	20% {margin-left: 0;}
 
-	25% {margin-left: -100%;}
+ 	25% {margin-left: -100%;}
 	45% {margin-left: -100%;}
 
-	50% {margin-left: -200%;}
+ 	50% {margin-left: -200%;}
 	70% {margin-left: -200%;}
 
-	75% {margin-left: -300%;}
+ 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
 }
 
-.galeria img {
- width:30%;
- padding: 10px;
+
+
+
+/*Parallax*/
+.completa
+{ width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
+
+.completa:target {
+  transform: translateX(100px);    }
+
+#completa1
+{  background-image: url(https://raw.githubusercontent.com/cursos-utn/Grupo007/master/Images/japon_tokio2.jpg);
+}
+
+#completa2
+{  background-image: url(https://raw.githubusercontent.com/cursos-utn/Grupo007/master/Images/japon_tokio1.jpg);
+}
+
+#completa3
+{  background-image: url(https://raw.githubusercontent.com/cursos-utn/Grupo007/master/Images/japon_tokio5.jpg);
+}
+
+#completa4
+{  background-image: url(https://raw.githubusercontent.com/cursos-utn/Grupo007/master/Images/japon_tokio4.jpg);
+}
+
+#formulario {padding:40px;}
+
+.galeria img {
+ width:30%; padding: 10px; }
 
 /*TEXTO*/
 .texto {
@@ -128,8 +149,12 @@ h3 {font-style:bold; font-size:30px; line-height:35px; padding-bottom: 40px;}
 .lista{
  display: flex;
  justify-content: space-around;margin:20px;
+ list-style-type: none;
       }
+
 a {color:white; text-decoration:none; }
+a:hover {color: black;}
+
 
 
 
