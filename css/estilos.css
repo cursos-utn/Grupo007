@@ -28,9 +28,7 @@ box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);}
 
 
 
-.contenedor {
-  align-self: stretch;
-}
+.contenedor {align-self: stretch;}
 
 .section{
   justify-content: space-around
