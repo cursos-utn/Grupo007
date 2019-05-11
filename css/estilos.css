@@ -61,18 +61,17 @@ font-size: 18px;
 
 #foto1{
   padding: 0;
-
+  margin: 0;
 }
 
 #foto2{
   padding: 0;
-
+  margin: 0;
 }
-
 
 #foto3{
   padding: 0;
-
+  margin: 0;
 }
 /*HAY UN TOKIO? PORQUE NO LO VEO EN EL NAV
 #tokio {
@@ -98,14 +97,13 @@ font-size: 18px;
    margin: auto;
    overflow: hidden;
 
-   /*animation: cambio 5s infinite alternate linear;*/
+   animation: cambio 5s infinite alternate linear;
 }
 
  .slider ul{
   display: flex;
   padding: 0;
   width: 95%;
-
  }
 
  .slider li{
@@ -124,7 +122,7 @@ font-size: 18px;
 	45% {margin-left: -100%;}
 
  	50% {margin-left: -200%;}
-	70% {margin-left: -200%;}
+  70% {margin-left: -200%;}
 
  	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
