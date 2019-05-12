@@ -42,9 +42,15 @@ font-size: 18px;
    padding:40px;
  }
 
+ ul{
+   margin: 0;
+   list-style-type: none;
+ }
+
 #kioto {
   background-color: #fff;
   min-height: 90vh;
+  list-style-type: none;
 }
 
 #kioto1{
@@ -53,26 +59,100 @@ font-size: 18px;
 
 #kioto2{
   width: 30vw;
+
 }
 
 #kioto3{
   width: 30vw;
+
 }
 
 #foto1{
-  padding: 0;
+  padding-left: 28vw;
   margin: 0;
 }
 
 #foto2{
-  padding: 0;
+  padding-left: 68vw;
   margin: 0;
 }
 
 #foto3{
-  padding: 0;
+  padding-left: 88vw;
   margin: 0;
 }
+
+#osaka {
+  background-color: #000;
+  height: 90vh;
+
+}
+
+#osaka1{
+  width: 30vw;
+}
+
+#osaka2{
+  width: 30vw;
+
+}
+
+#osaka3{
+  width: 30vw;
+
+}
+
+#foto4{
+  padding-left: 28vw;
+  margin: 0;
+}
+
+#foto5{
+  padding-left: 68vw;
+  margin: 0;
+}
+
+#foto6{
+  padding-left: 88vw;
+  margin: 0;
+}
+
+
+#kurama {
+  background-color: #555;
+  height: 90vh;
+}
+
+#kurama1{
+  width: 30vw;
+}
+
+#kurama2{
+  width: 30vw;
+
+}
+
+#kurama3{
+  width: 30vw;
+
+}
+
+#foto7{
+  padding-left: 28vw;
+  margin: 0;
+}
+
+#foto8{
+  padding-left: 68vw;
+  margin: 0;
+}
+
+#foto9{
+  padding-left: 88vw;
+  margin: 0;
+}
+
+
 /*HAY UN TOKIO? PORQUE NO LO VEO EN EL NAV
 #tokio {
   background-color: #ccc;
@@ -80,52 +160,33 @@ font-size: 18px;
 }
 */
 
-#osaka {
-  background-color: #000;
-  height: 90vh;
-}
-
-#kurama {
-  background-color: #555;
-  height: 90vh;
-}
-
 
 /*SLIDER*/
 .slider{
    width: 100%;
    margin: auto;
-   overflow: hidden;
 
-   animation: cambio 5s infinite alternate linear;
+   animation: cambio 10s infinite alternate linear;
 }
 
  .slider ul{
   display: flex;
-  padding: 0;
-  width: 95%;
+  padding-left: : 30vw;
+
  }
 
- .slider li{
-  width: 100vw;
-}
-
-.slider img{
-  width: 100vw;
-}
-
  @keyframes cambio {
-	0% {margin-left: 0;}
+	0% {margin-left:0;}
 	20% {margin-left: 0;}
 
- 	25% {margin-left: -100%;}
-	45% {margin-left: -100%;}
+ 	25% {margin-left: -100vw;}
+	45% {margin-left: -100vw;}
 
- 	50% {margin-left: -200%;}
-  70% {margin-left: -200%;}
+ 	50% {margin-left: -220vw;}
+  70% {margin-left: -220vw;}
 
- 	75% {margin-left: -300%;}
-	100% {margin-left: -300%;}
+ 	75% {margin-left: -350vw;}
+	100% {margin-left: -350vw;}
 }
 
 
