@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Formulario</title>
+<link rel="stylesheet" href="css/cssform.css">
+<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<div class="form-container">
+<h1>¿Querés recibir más información sobre la milenaria cultura japonesa? <span>Registrate!</span></h1>
+<form>
+    <div class="section"><span>1</span>Tus datos</div>
+    <div class="inner-wrap">
+        <label>Nombre completo <input type="text" name="campo1" required/ placeholder="Ej.: Juan Pérez"> </label>
+        <label>Dirección <textarea name="campo2" placeholder="Ej.: Enlightened Path 111"></textarea></label>
+        <label>E-mail  <input type="email" name="campo3" required placeholder="Ej.: jperez@mail.com"/></label>
+        <label>Teléfono <input type="text" name="campo4" /></label>
+		</div>
+    <div class="section"><span>2</span>Crea tu clave</div>
+		<div class="inner-wrap">
+        <label>Clave <input type="password" name="campo5" required/></label>
+        <label>Confirmá tu clave <input type="password" name="campo6" required /></label>
+    </div>
+    <div class="button-section">
+     <input type="submit" name="Registro" />
+     <span class="privacidad">
+     <input type="checkbox" name="campo7" required>Acuerdo a nuestros <label class="terms" for="alternar">Términos y condiciones</label>
+     <p>
+       <a href="#Legales">Lea nuestros Términos y condiciones</a>
+     </p>
+     </span>
+    </div>
+
+</form>
+</div>
+
+<input id="alternar" type="checkbox">
+<div id="Legales">
+  <p>Términos y condiciones de uso <br>
+  </p>
+</div>
+
+
+</body>
+</html>
