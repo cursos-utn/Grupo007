@@ -23,7 +23,7 @@
             <li class="links"><a href="#kioto">Kioto</a></li>
             <li class="links"><a href="#osaka">Osaka</a></li>
             <li class="links"><a href="#kurama">Kurama</a></li>
-            <li class="links"><a href="#formulario">Mensajes</a></li>
+            <li class="links"><a href="#formulario">Contacto</a></li>
         </ul>
     </div>
 
@@ -79,14 +79,41 @@
   </div>
   <div class="completa" id="completa4"> </div>
 
-<div>
-    <div id="formulario">
-     <h3>Mensajes</h3>
-</div>
+  <div class="form-container" id="formulario">
+  <h1>¿Querés recibir más información sobre la milenaria cultura japonesa? <span>Registrate!</span></h1>
+  <form>
+      <div class="section"><span>1</span>Tus datos</div>
+      <div class="inner-wrap">
+          <label>Nombre completo <input type="text" name="campo1" required placeholder="Ej.: Juan Pérez"> </label>
+          <label>Dirección <textarea name="campo2" placeholder="Ej.: Enlightened Path 111"></textarea></label>
+          <label>E-mail  <input type="email" name="campo3" required placeholder="Ej.: jperez@mail.com"/></label>
+          <label>Teléfono <input type="text" name="campo4" /></label>
+  		</div>
+      <div class="section"><span>2</span>Crea tu clave</div>
+  		<div class="inner-wrap">
+          <label>Clave <input type="password" name="campo5" required/></label>
+          <label>Confirmá tu clave <input type="password" name="campo6" required /></label>
+      </div>
+      <div class="button-section">
+       <input type="submit" name="Registro" />
+       <span class="privacidad">Acuerdo a nuestros <br>
+         <a class=terms href="#Legales"
+          target="popup"
+          onclick="window.open('#Legales', 'popup','width=600,height=600'); return false;">
+          Términos y condiciones</a>
+        </span>
 
+      </div>
 
-
+  </form>
   </div>
+
+  <input id="alternar" type="checkbox">
+  <div id="Legales">
+    <p>Términos y condiciones de uso <br>
+    </p>
+  </div>
+
   <footer class="pie">
   </footer>
 
