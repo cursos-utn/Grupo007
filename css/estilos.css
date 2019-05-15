@@ -21,7 +21,7 @@ font-size: 18px;
     position: fixed;
     width: 100%;
     margin: 0px auto;
-    font-style:bold;
+    font-weight: bold;
     background-color:red;
     box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);}
 
@@ -234,7 +234,7 @@ font-size: 18px;
 color: white; padding:60px; line-height: 30px; }
 
 h3 {
-  font-style:bold; font-size:30px; line-height:35px; padding-bottom: 40px;
+  font-weight: bold; font-size:30px; line-height:35px; padding-bottom: 40px;
 }
 
 .white {color:white;}
