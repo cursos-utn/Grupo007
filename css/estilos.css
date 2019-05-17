@@ -375,20 +375,4 @@ a:hover {color: black;}
 }
 
 .terms{	font-family: Arial !important; color: blue !important; text-decoration: underline;}
-
-.Legales {
-  display: none;
-  background: #ccc;
-  width: 200px;
-  height: 100px;
-}
-#alternar:checked + .Legales {
-  display: block;
-}
-
-#alternar{display: none}
-
-#Legales{font: 12px Arial;
-	display: none;}
-
-#Legales :visited{display: block;}
+.terms{	font-family: Arial !important; color: darkviolet !important;}
